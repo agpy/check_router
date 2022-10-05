@@ -1,4 +1,4 @@
 {"dev_state": "curl -s http://192.168.101.2/cm?cmnd=Power",
 "power_on": "curl -s http://192.168.101.2/cm?cmnd=Power%20On",
 "power_off": "curl -s http://192.168.101.2/cm?cmnd=Power%20Off",
-"ping_perf": "ping -c 5 -n 77.88.8.1"}
+"ping_perf": "ping -c 5 -n 8.8.8.8"}
