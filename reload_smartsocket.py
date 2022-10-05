@@ -19,7 +19,7 @@ def reload_smartsocket(curl_config):
     ping_result = subprocess.run(ping_perf, shell=True, stdout=subprocess.PIPE, encoding='UTF-8')
     print('Dev_State is: ', devstate['POWER'], ping_result.stdout)
 
-    #Check ping returncode and state of Smart Socket. If ping fails, turn off Smart Socket.
+    #Check ping returncode and state of Smart Socket. If ping fails, turn off/on Smart Socket.
     if ping_result.returncode !=0 and devstate['POWER']=='ON':
         devstate = subprocess.run(power_off, shell=True, stdout=subprocess.PIPE, encoding='UTF-8')
         devstate = json.loads(devstate.stdout)
