@@ -40,4 +40,4 @@ def reload_smartsocket(curl_config):
 
 
 if __name__ == "__main__":
-    reload_smartsocket('/home/phil/tuya/curl_config.json')
+    reload_smartsocket('/path/to/curl_config.json')
