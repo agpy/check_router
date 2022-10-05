@@ -1,4 +1,4 @@
-# check_router
+# check_router_tasmota
 Script for checking the router of the second ISP in Multi-WAN, which sometimes freezes.
 Given that I did not have access to control the router, I was forced to use the smart socket. 
 
